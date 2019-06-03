@@ -16,5 +16,5 @@ def speak_to_grandma
   grandma_responses = ["HUH?! SPEAK UP, SONNY!", "NO, NOT SINCE 1938!", "I LOVE YOU TOO PUMPKIN"]
 end
 
-speak_to_grandma[0]
+speak_to_grandma[0].downcase
     
