@@ -13,7 +13,12 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma
-  grandma_responses = ["HUH?! SPEAK UP, SONNY!", "NO, NOT SINCE 1938!", "I LOVE YOU TOO PUMPKIN"]
+  if speak_to_grandma.downcase
+    puts "HUH?! SPEAK UP, SONNY!"
+    elsif speak_to_grandma.upcase
+    puts "NO, NOT SINCE 1938!"
+    elsif speak_to_grandma == "I LOVE YOU GRANDMA!"
+    puts 
 end
 
 speak_to_grandma[0].downcase
