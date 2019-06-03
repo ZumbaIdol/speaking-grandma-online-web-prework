@@ -18,8 +18,8 @@ def speak_to_grandma
     elsif speak_to_grandma.upcase
     puts "NO, NOT SINCE 1938!"
     elsif speak_to_grandma == "I LOVE YOU GRANDMA!"
-    puts 
+    puts "I LOVE YOU TOO PUMPKIN!"
 end
 
-speak_to_grandma[0].downcase
+speak_to_grandma.downcase
     
